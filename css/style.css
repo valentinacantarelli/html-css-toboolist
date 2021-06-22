@@ -2,24 +2,20 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 /* generale*/
 body {
-    background-color: #f6f8f9 ;
-    
+    background-color: #f6f8f9 ;   
 }
 .banner {
     background-color: white;
     height: 100px;
-    padding: 15px 15px 15px 25px;
-    
+    padding: 15px 15px 15px 25px;    
 }
 .logo {
     height: 70px;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
 .titolo {
     display: inline-block;
@@ -27,62 +23,56 @@ body {
     font-family:  'Montserrat', sans-serif;
     font-size: 50px ;
 }
-.sezione-bottoni{
+.sezione-bottoni {
     width: 70%;
-    margin: 50px 200px;
+    margin: 50px 200px 0 200px;
     max-width: 900px;
 	background-color: white;
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    
+    border-top-right-radius: 15px;    
 }
-.bottoni{
+.bottoni {
     height: 70px;
-    padding: 20px 0 0 60px ;
-    
+    padding: 20px 0 0 60px ;    
 }
-.button-task{
+.button-task {
     background-color: #47adf1;
     border:1px solid lightgrey;
     border-radius: 7px;
     padding: 8px 12px;
     color: white;
-    margin-right: 3px;
-    
+    margin-right: 3px;  
 }
-.button-section{
+.button-section {
     background-color: white;
     border:1px solid lightgrey;
     border-radius: 7px;
     padding: 8px 12px;
-    color: lightgrey;
-    
+    color: lightgrey;    
 }
-.corpo-centrale{
+.corpo-centrale {
     border-top: 3px solid #f6f8f9 ;
     max-width: 900px;
+    margin-left:200px;
     background-color: white;
     padding: 40px 60px;
 }
-.titoli-lista{
+.titoli-lista {
     font-family:  'Montserrat', sans-serif;
     font-size: 25px;
     color: #444851;
-
 }
-ul{
+ul {
     padding:10px 4px 20px 4px;
-
 }
-.list-item{
+.list-item {
     list-style: none;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #444851;
     font-size: 18px;
-    padding: 10px 2px;
-    
+    padding: 13px 3px;   
 }
-.check{
+.check {
     display: inline-block;
     color: rgb(35, 153, 35);
     border: 1px solid rgb(35, 153, 35);
@@ -91,9 +81,9 @@ ul{
     width: 20px;
     line-height: 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: 12px;   
 }
-.cross{
+.cross {
     display: inline-block;
     color: red;
     border: 1px solid red;
@@ -103,5 +93,4 @@ ul{
     line-height: 20px;
     text-align: center;
     font-size: 12px;
-
 }
