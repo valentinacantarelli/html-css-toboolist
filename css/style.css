@@ -94,3 +94,46 @@ ul {
     text-align: center;
     font-size: 12px;
 }
+.editorial {
+    background-color: #47adf1 ;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    padding: 8px 12px;
+}
+.goal {
+    background-color: #9c72e4;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    padding: 8px 12px;
+}
+.recruiting {
+    background-color: #69c0a9;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    padding: 8px 12px;
+}
+.mobile {
+    background-color: #f2a035;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    padding: 8px 12px;
+}
+.website {
+    background-color: #d863a1;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    padding: 8px 12px;
+}
+.sales {
+    background-color: #b0c926;
+    border-radius: 15px;
+    font-size: 10px;
+    color: white;
+    padding: 8px 12px;
+
+}
