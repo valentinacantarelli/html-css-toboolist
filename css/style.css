@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 /* generale*/
 body {
     background-color: #f6f8f9 ;
+    
 }
 .banner {
     background-color: white;
@@ -25,7 +27,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 60px ;
 }
-.corpo-centrale{
+.sezione-bottoni{
     width: 70%;
     margin: 50px 200px;
     max-width: 900px;
@@ -38,19 +40,27 @@ body {
     height: 70px;
     padding: 20px 0 0 60px ;
     
-    
 }
 .button-task{
     background-color: #47adf1;
     border:1px solid lightgrey;
     border-radius: 7px;
-    padding: 8px;
+    padding: 8px 12px;
     color: white;
+    margin-right: 3px;
+    
 }
 .button-section{
     background-color: white;
     border:1px solid lightgrey;
     border-radius: 7px;
-    padding: 8px;
+    padding: 8px 12px;
     color: lightgrey;
+    
+}
+.corpo-centrale{
+    border-top: 3px solid #f6f8f9 ;
+    max-width: 900px;
+    background-color: white;
+    padding: 40px 60px;
 }
