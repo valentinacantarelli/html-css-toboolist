@@ -24,8 +24,8 @@ body {
 .titolo {
     display: inline-block;
     vertical-align: middle;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 60px ;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 50px ;
 }
 .sezione-bottoni{
     width: 70%;
@@ -63,4 +63,45 @@ body {
     max-width: 900px;
     background-color: white;
     padding: 40px 60px;
+}
+.titoli-lista{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #444851;
+
+}
+ul{
+    padding:10px 4px 20px 4px;
+
+}
+.list-item{
+    list-style: none;
+    font-family: sans-serif;
+    color: #444851;
+    font-size: 18px;
+    padding: 10px 2px;
+    
+}
+.check{
+    display: inline-block;
+    color: rgb(35, 153, 35);
+    border: 1px solid rgb(35, 153, 35);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.cross{
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+
 }
